@@ -1,3 +1,23 @@
+
+Dự án nguồn mở ZPix là một ứng dụng AI tạo và chỉnh sửa ảnh chạy hoàn toàn local, tận dụng GPU cá nhân để generate image mà không cần cloud. Điểm đặc biệt là trải nghiệm “plug & play” – tải về chạy ngay, không cần setup phức tạp nhưng vẫn giữ được sức mạnh của các model diffusion hiện đại  ￼
+
+Các tính năng nổi bật:
+
+* Local-first AI → chạy hoàn toàn trên máy, không cần API hay internet (sau khi tải model)  ￼
+* One-click setup → tự động cài Python + dependencies, không cần cấu hình môi trường  ￼
+* Text-to-Image → tạo ảnh từ prompt với các model diffusion tối ưu sẵn  ￼
+* Image-to-Image → chỉnh sửa ảnh dựa trên prompt + ảnh tham chiếu (drag & drop trực tiếp)  ￼
+* Prompt recall → trích xuất prompt từ ảnh đã generate + lưu lịch sử để reuse  ￼
+* Hotswap LoRA → load/unload LoRA runtime, chỉnh strength mà không cần restart  ￼
+* Auto LoRA trigger → tự động chèn trigger words từ metadata LoRA
+* Lazy model loading → chỉ tải model khi cần → tiết kiệm dung lượng và thời gian  ￼
+* Seed control → tái tạo lại ảnh chính xác hoặc random theo nhu cầu  ￼
+* Multiple aspect ratios → hỗ trợ 11 tỷ lệ (1:1, 16:9, 9:16…) cho nhiều use case  ￼
+* Built-in gallery → gallery luôn hiển thị, có thể kéo ảnh làm reference trực tiếp
+* Auto-save output → ảnh được lưu tự động vào máy, không mất dữ liệu
+* UI tối ưu trải nghiệm → thiết kế hướng “comfort-first”, đơn giản cho cả người không kỹ thuật  ￼
+
+
 # ZPix
 
 <img src="https://raw.githubusercontent.com/SamuelTallet/ZPix/refs/heads/main/docs/screens/ZPix-v1.0.5.webp">
